@@ -1,0 +1,22 @@
+.characterBox {
+  display: flex;
+  justify-content: center;
+
+  .detailsCard {
+    width: 50%;
+    height: 80vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    p {
+      font-size: 30px;
+    }
+
+    img {
+      height: 400px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+html,
+body {
+  background-color: darkslateblue;
+  .App {
+    text-align: center;
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 15vh;
+      border-bottom: 3px solid rgb(39, 34, 75);
+
+      p {
+        font-size: 30px;
+        background-color: darkorchid;
+        border-radius: 15px;
+        padding: 10px;
+        color: white;
+      }
+    }
+  }
+}
